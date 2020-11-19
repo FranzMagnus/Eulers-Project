@@ -6,6 +6,7 @@ class Problem1 {
         Scanner scanner = new Scanner(System.in);
         String input = scanner.nextLine();
         scanner.close();
+
         int value = Integer.parseInt(input);
         int result = computeMultiples(value);
         System.out.println(result); 
